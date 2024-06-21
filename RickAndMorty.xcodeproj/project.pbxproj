@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		B7848ADE2C1C3E5C00EE2CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848ADD2C1C3E5C00EE2CA0 /* AppDelegate.swift */; };
 		B7848AE02C1C3E5C00EE2CA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848ADF2C1C3E5C00EE2CA0 /* SceneDelegate.swift */; };
-		B7848AE22C1C3E5C00EE2CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848AE12C1C3E5C00EE2CA0 /* ViewController.swift */; };
-		B7848AE52C1C3E5D00EE2CA0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7848AE42C1C3E5D00EE2CA0 /* Base */; };
+		B7848AE22C1C3E5C00EE2CA0 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848AE12C1C3E5C00EE2CA0 /* RMTabBarController.swift */; };
 		B7848AE72C1C3E5E00EE2CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7848AE62C1C3E5E00EE2CA0 /* Assets.xcassets */; };
 		B7848AEA2C1C3E5E00EE2CA0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B7848AE92C1C3E5E00EE2CA0 /* Base */; };
+		B7848AF92C1C42EA00EE2CA0 /* RMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848AF82C1C42EA00EE2CA0 /* RMLocation.swift */; };
+		B7848AFB2C1C430300EE2CA0 /* RMCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848AFA2C1C430300EE2CA0 /* RMCharacter.swift */; };
+		B7848AFD2C1C431A00EE2CA0 /* RMEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848AFC2C1C431A00EE2CA0 /* RMEpisode.swift */; };
+		B7848B002C1C43E900EE2CA0 /* RMCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848AFF2C1C43E900EE2CA0 /* RMCharacterViewController.swift */; };
+		B7848B022C1C440300EE2CA0 /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848B012C1C440300EE2CA0 /* RMLocationViewController.swift */; };
+		B7848B042C1C440F00EE2CA0 /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848B032C1C440F00EE2CA0 /* RMEpisodeViewController.swift */; };
+		B7848B062C1C442300EE2CA0 /* RMSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7848B052C1C442300EE2CA0 /* RMSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7848ADA2C1C3E5C00EE2CA0 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7848ADD2C1C3E5C00EE2CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7848ADF2C1C3E5C00EE2CA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7848AE12C1C3E5C00EE2CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7848AE42C1C3E5D00EE2CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7848AE12C1C3E5C00EE2CA0 /* RMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMTabBarController.swift; sourceTree = "<group>"; };
 		B7848AE62C1C3E5E00EE2CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7848AE92C1C3E5E00EE2CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7848AEB2C1C3E5E00EE2CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7848AF82C1C42EA00EE2CA0 /* RMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocation.swift; sourceTree = "<group>"; };
+		B7848AFA2C1C430300EE2CA0 /* RMCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacter.swift; sourceTree = "<group>"; };
+		B7848AFC2C1C431A00EE2CA0 /* RMEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisode.swift; sourceTree = "<group>"; };
+		B7848AFF2C1C43E900EE2CA0 /* RMCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterViewController.swift; sourceTree = "<group>"; };
+		B7848B012C1C440300EE2CA0 /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
+		B7848B032C1C440F00EE2CA0 /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
+		B7848B052C1C442300EE2CA0 /* RMSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,85 @@
 		B7848ADC2C1C3E5C00EE2CA0 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				B7848ADD2C1C3E5C00EE2CA0 /* AppDelegate.swift */,
-				B7848ADF2C1C3E5C00EE2CA0 /* SceneDelegate.swift */,
-				B7848AE12C1C3E5C00EE2CA0 /* ViewController.swift */,
-				B7848AE32C1C3E5D00EE2CA0 /* Main.storyboard */,
-				B7848AE62C1C3E5E00EE2CA0 /* Assets.xcassets */,
-				B7848AE82C1C3E5E00EE2CA0 /* LaunchScreen.storyboard */,
+				B7848AF72C1C41F500EE2CA0 /* Resources */,
+				B7848AF62C1C41E400EE2CA0 /* Managers */,
+				B7848AF52C1C41C500EE2CA0 /* APIClient */,
+				B7848AF42C1C41A600EE2CA0 /* ViewModels */,
+				B7848AF32C1C41A000EE2CA0 /* Views */,
+				B7848AF22C1C419800EE2CA0 /* Models */,
+				B7848AF12C1C418C00EE2CA0 /* Controllers */,
 				B7848AEB2C1C3E5E00EE2CA0 /* Info.plist */,
 			);
 			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		B7848AF12C1C418C00EE2CA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7848AFE2C1C43AF00EE2CA0 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7848AF22C1C419800EE2CA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7848AF82C1C42EA00EE2CA0 /* RMLocation.swift */,
+				B7848AFA2C1C430300EE2CA0 /* RMCharacter.swift */,
+				B7848AFC2C1C431A00EE2CA0 /* RMEpisode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7848AF32C1C41A000EE2CA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7848AF42C1C41A600EE2CA0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B7848AF52C1C41C500EE2CA0 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		B7848AF62C1C41E400EE2CA0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B7848AF72C1C41F500EE2CA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7848ADD2C1C3E5C00EE2CA0 /* AppDelegate.swift */,
+				B7848ADF2C1C3E5C00EE2CA0 /* SceneDelegate.swift */,
+				B7848AE62C1C3E5E00EE2CA0 /* Assets.xcassets */,
+				B7848AE82C1C3E5E00EE2CA0 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B7848AFE2C1C43AF00EE2CA0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B7848AE12C1C3E5C00EE2CA0 /* RMTabBarController.swift */,
+				B7848AFF2C1C43E900EE2CA0 /* RMCharacterViewController.swift */,
+				B7848B012C1C440300EE2CA0 /* RMLocationViewController.swift */,
+				B7848B032C1C440F00EE2CA0 /* RMEpisodeViewController.swift */,
+				B7848B052C1C442300EE2CA0 /* RMSettingViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +209,6 @@
 			files = (
 				B7848AE72C1C3E5E00EE2CA0 /* Assets.xcassets in Resources */,
 				B7848AEA2C1C3E5E00EE2CA0 /* Base in Resources */,
-				B7848AE52C1C3E5D00EE2CA0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7848AE22C1C3E5C00EE2CA0 /* ViewController.swift in Sources */,
+				B7848B022C1C440300EE2CA0 /* RMLocationViewController.swift in Sources */,
+				B7848AFD2C1C431A00EE2CA0 /* RMEpisode.swift in Sources */,
+				B7848AE22C1C3E5C00EE2CA0 /* RMTabBarController.swift in Sources */,
+				B7848B042C1C440F00EE2CA0 /* RMEpisodeViewController.swift in Sources */,
+				B7848B062C1C442300EE2CA0 /* RMSettingViewController.swift in Sources */,
 				B7848ADE2C1C3E5C00EE2CA0 /* AppDelegate.swift in Sources */,
 				B7848AE02C1C3E5C00EE2CA0 /* SceneDelegate.swift in Sources */,
+				B7848AF92C1C42EA00EE2CA0 /* RMLocation.swift in Sources */,
+				B7848AFB2C1C430300EE2CA0 /* RMCharacter.swift in Sources */,
+				B7848B002C1C43E900EE2CA0 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7848AE32C1C3E5D00EE2CA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7848AE42C1C3E5D00EE2CA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B7848AE82C1C3E5E00EE2CA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +377,9 @@
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +405,9 @@
 				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
